@@ -1,0 +1,14 @@
+{"links":[
+
+{
+	"sourceFolderPath":"Assets/TOGame/SourceImages/MainAtlas",
+	"atlasFilePath":"Assets/TOGame/Resources/Atlases/MainAtlas",
+	"shouldGenerate":"True",
+	"shouldFoldout":"True",
+	"shouldAutoGenerate":"False",
+	"shouldAddSubfolders":"True",
+	"shouldUseBytes":"True",
+	"scale":"1"	"shouldTrim":"True"	"padding":"1"	"extrude":"0"	"trimPadding":"1"
+}
+
+]}

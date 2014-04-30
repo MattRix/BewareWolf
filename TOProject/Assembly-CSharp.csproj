@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{08CB2410-5299-CEB6-0D7A-43B33DC142EB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Futile\Core\FAtlas.cs" />
+     <Compile Include="Assets\Futile\Core\FAtlasManager.cs" />
+     <Compile Include="Assets\Futile\Core\FFacetRenderLayer.cs" />
+     <Compile Include="Assets\Futile\Core\FFacetType.cs" />
+     <Compile Include="Assets\Futile\Core\FFont.cs" />
+     <Compile Include="Assets\Futile\Core\FMatrix.cs" />
+     <Compile Include="Assets\Futile\Core\FNodeEnabler.cs" />
+     <Compile Include="Assets\Futile\Core\FRenderer.cs" />
+     <Compile Include="Assets\Futile\Core\FScreen.cs" />
+     <Compile Include="Assets\Futile\Core\FShader.cs" />
+     <Compile Include="Assets\Futile\Core\FTouchManager.cs" />
+     <Compile Include="Assets\Futile\Core\FutileException.cs" />
+     <Compile Include="Assets\Futile\Core\FutileParams.cs" />
+     <Compile Include="Assets\Futile\Display\FContainer.cs" />
+     <Compile Include="Assets\Futile\Display\FFacetNode.cs" />
+     <Compile Include="Assets\Futile\Display\FGameObjectNode.cs" />
+     <Compile Include="Assets\Futile\Display\FLabel.cs" />
+     <Compile Include="Assets\Futile\Display\FNode.cs" />
+     <Compile Include="Assets\Futile\Display\FSprite.cs" />
+     <Compile Include="Assets\Futile\Display\FStage.cs" />
+     <Compile Include="Assets\Futile\Display\MeshNodes\FMeshData.cs" />
+     <Compile Include="Assets\Futile\Display\MeshNodes\FMeshNode.cs" />
+     <Compile Include="Assets\Futile\Extras\FButton.cs" />
+     <Compile Include="Assets\Futile\Extras\FParticleSystem.cs" />
+     <Compile Include="Assets\Futile\Extras\FRadialWipeSprite.cs" />
+     <Compile Include="Assets\Futile\Extras\FRepeatMeshSprite.cs" />
+     <Compile Include="Assets\Futile\Extras\FRepeatSprite.cs" />
+     <Compile Include="Assets\Futile\Extras\FSimpleTileMap.cs" />
+     <Compile Include="Assets\Futile\Extras\FSliceButton.cs" />
+     <Compile Include="Assets\Futile\Extras\FSliceSprite.cs" />
+     <Compile Include="Assets\Futile\Extras\FSortYContainer.cs" />
+     <Compile Include="Assets\Futile\Extras\FSoundManager.cs" />
+     <Compile Include="Assets\Futile\Extras\FUnityParticleSystemNode.cs" />
+     <Compile Include="Assets\Futile\Extras\FWipeSprite.cs" />
+     <Compile Include="Assets\Futile\Futile.cs" />
+     <Compile Include="Assets\Futile\Helpers\FDebugFramerateGraph.cs" />
+     <Compile Include="Assets\Futile\Physics\FPDebugRenderer.cs" />
+     <Compile Include="Assets\Futile\Physics\FPDecomposer.cs" />
+     <Compile Include="Assets\Futile\Physics\FPNodeLink.cs" />
+     <Compile Include="Assets\Futile\Physics\FPPolygonalCollider.cs" />
+     <Compile Include="Assets\Futile\Physics\FPPolygonalData.cs" />
+     <Compile Include="Assets\Futile\Physics\FPUtils.cs" />
+     <Compile Include="Assets\Futile\Physics\FPWorld.cs" />
+     <Compile Include="Assets\Futile\Physics\FPhysics.cs" />
+     <Compile Include="Assets\Futile\Rix\Experimental\RXGCTrigger.cs" />
+     <Compile Include="Assets\Futile\Rix\Experimental\RXSignal.cs" />
+     <Compile Include="Assets\Futile\Rix\Experimental\RXWeak.cs" />
+     <Compile Include="Assets\Futile\Rix\RXDebug.cs" />
+     <Compile Include="Assets\Futile\Rix\RXDestroyOnAwake.cs" />
+     <Compile Include="Assets\Futile\Rix\RXDivider.cs" />
+     <Compile Include="Assets\Futile\Rix\RXExtensions.cs" />
+     <Compile Include="Assets\Futile\Rix\RXPerformanceTester.cs" />
+     <Compile Include="Assets\Futile\Rix\RXProfiler.cs" />
+     <Compile Include="Assets\Futile\Rix\RXRect.cs" />
+     <Compile Include="Assets\Futile\Rix\RXScroller.cs" />
+     <Compile Include="Assets\Futile\Rix\RXStockpile.cs" />
+     <Compile Include="Assets\Futile\Rix\RXUtils.cs" />
+     <Compile Include="Assets\Futile\Rix\RXWatcher.cs" />
+     <Compile Include="Assets\Futile\ThirdParty\MiniJson.cs" />
+     <Compile Include="Assets\InControl\Examples\Basic\CubeController.cs" />
+     <Compile Include="Assets\InControl\Examples\CustomProfile\CubeController.cs" />
+     <Compile Include="Assets\InControl\Examples\CustomProfile\KeyboardAndMouseProfile.cs" />
+     <Compile Include="Assets\InControl\Examples\Gyro\CubeController.cs" />
+     <Compile Include="Assets\InControl\Examples\Gyro\GyroProfile.cs" />
+     <Compile Include="Assets\InControl\Examples\Multiplayer\CubeController.cs" />
+     <Compile Include="Assets\InControl\Library\Components\InControlManager.cs" />
+     <Compile Include="Assets\InControl\Library\Control\InputControl.cs" />
+     <Compile Include="Assets\InControl\Library\Control\InputControlMapping.cs" />
+     <Compile Include="Assets\InControl\Library\Control\InputControlSource.cs" />
+     <Compile Include="Assets\InControl\Library\Control\InputControlState.cs" />
+     <Compile Include="Assets\InControl\Library\Control\InputControlType.cs" />
+     <Compile Include="Assets\InControl\Library\Control\OneAxisInputControl.cs" />
+     <Compile Include="Assets\InControl\Library\Control\TwoAxisInputControl.cs" />
+     <Compile Include="Assets\InControl\Library\Debug\Logger.cs" />
+     <Compile Include="Assets\InControl\Library\Device\InputDevice.cs" />
+     <Compile Include="Assets\InControl\Library\Device\InputDeviceManager.cs" />
+     <Compile Include="Assets\InControl\Library\InputManager.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\ControlSources\UnityAnalogSource.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\ControlSources\UnityButtonSource.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\ControlSources\UnityGyroAxisSource.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\ControlSources\UnityKeyCodeAxisSource.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\ControlSources\UnityKeyCodeSource.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\ControlSources\UnityMouseAxisSource.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\ControlSources\UnityMouseButtonSource.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\AppleMFiProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\ExecutionerXProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\GameStickLinuxProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\GameStickProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\GenericAndroidProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\GenericBlackberryProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\LogitechDualActionProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\LogitechF710MacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\LogitechF710ModeDWinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\LogitechF710ModeXWinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\LogitechRumblePad2MacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\MogaProLinuxProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\MogaProMacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\MogaProOuyaProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\MogaProWinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\NVidiaShieldAndroidProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\OuyaLinuxProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\OuyaProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\OuyaWinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\PlayStation2WinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation3LinuxProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation3MacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation3OuyaProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation3ShenghicWinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation3WinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation4LinuxProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation4MacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Playstation4WinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\SpeedlinkStrikeMacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\SpeedlinkStrikeWinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\SteelSeriesFreeLinuxProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\SteelSeriesFreeMacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\SteelSeriesFreeOuyaProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\SteelSeriesFreeWinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Xbox360LinuxProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Xbox360MacProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Xbox360OuyaProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\DeviceProfiles\Xbox360WinProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\UnityInputDevice.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\UnityInputDeviceManager.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\UnityInputDeviceProfile.cs" />
+     <Compile Include="Assets\InControl\Library\Unity\UnityUnknownDeviceProfile.cs" />
+     <Compile Include="Assets\InControl\Library\VersionInfo.cs" />
+     <Compile Include="Assets\InControl\Library\XInput\XInputDevice.cs" />
+     <Compile Include="Assets\InControl\Library\XInput\XInputDeviceManager.cs" />
+     <Compile Include="Assets\InControl\Library\XInput\XInputDotNetPure\GamePad.cs" />
+     <Compile Include="Assets\InControl\Library\XInput\XInputDotNetPure\Utils.cs" />
+     <Compile Include="Assets\InControl\Test\TestInputManager.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\Arena.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\DayManager.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\Entity.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\EntityArea.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\FenceH.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\FenceV.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\GameOverScreen.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\Hopper.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\House.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\Human.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\HumanDeathCloud.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\HumanHealthBar.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\Map\MapData.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\OldHopper.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\TORect.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\Vill.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\VillAttackBeam.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\VillDeathCloud.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\Wolf.cs" />
+     <Compile Include="Assets\TOGame\Code\Arena\WolfAttackBeam.cs" />
+     <Compile Include="Assets\TOGame\Code\Core\Config.cs" />
+     <Compile Include="Assets\TOGame\Code\Core\Core.cs" />
+     <Compile Include="Assets\TOGame\Code\Core\Page.cs" />
+     <Compile Include="Assets\TOGame\Code\Core\PlayerManager.cs" />
+     <Compile Include="Assets\TOGame\Code\Core\PlayerSelectPage.cs" />
+     <Compile Include="Assets\TOGame\Code\Core\TOColors.cs" />
+     <Compile Include="Assets\TOGame\Code\Core\TOFonts.cs" />
+     <Compile Include="Assets\TOGame\Code\Effects\CircularParticleSystem.cs" />
+     <Compile Include="Assets\TOGame\Code\Effects\EffectManager.cs" />
+     <Compile Include="Assets\TOGame\Code\Effects\SparkleSprite.cs" />
+     <Compile Include="Assets\TOGame\Code\MapEditor\GeneratedMap.cs" />
+     <Compile Include="Assets\TOGame\Code\MapEditor\MapEditor.cs" />
+     <Compile Include="Assets\TOGame\Code\TOMain.cs" />
+     <Compile Include="Assets\TOGame\Code\UI\Blocker.cs" />
+     <Compile Include="Assets\TOGame\Code\UI\DualLabel.cs" />
+     <Compile Include="Assets\TOGame\Code\UI\FadeSequenceContainer.cs" />
+     <Compile Include="Assets\TOGame\Code\UI\LevelBar.cs" />
+     <Compile Include="Assets\TOGame\Code\UI\MultiDualLabel.cs" />
+     <Compile Include="Assets\TOGame\Code\UI\RoundedRect.cs" />
+     <Compile Include="Assets\TOGame\Code\UI\SimpleButton.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\Audio\AudioManager.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\Audio\FXManager.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\Audio\FXPlayer.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\Audio\MusicManager.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\Audio\MusicPlayer.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\DenomMaker.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\TODebug.cs" />
+     <Compile Include="Assets\TOGame\Code\Utils\TOUtils.cs" />
+     <None Include="Assets\TOGame\Resources\Atlases\MainAtlas.txt" />
+     <None Include="Assets\TOGame\Resources\Fonts\TempestaFiveCondensed.txt" />
+     <None Include="Assets\Futile\Resources\Shaders\AdditiveColor.shader" />
+     <None Include="Assets\TOGame\Resources\Fonts\TempestaSevenCondensedBold.txt" />
+     <None Include="Assets\Futile\Resources\Shaders\Additive.shader" />
+     <None Include="Assets\InControl\README\README.txt" />
+     <None Include="Assets\TOGame\Resources\Fonts\TempestaSevenCompressed.txt" />
+     <None Include="Assets\TOGame\Resources\Atlases\MainAtlas_Scale4.txt" />
+     <None Include="Assets\Futile\Resources\Shaders\Basic_PixelSnap.shader" />
+     <None Include="Assets\TOGame\Resources\Fonts\TempestaFiveCompressed.txt" />
+     <None Include="Assets\TOGame\Resources\Fonts\TempestaFiveCondensedBold.txt" />
+     <None Include="Assets\TOGame\Resources\Fonts\TempestaSevenCondensed.txt" />
+     <None Include="Assets\Futile\Resources\Shaders\Blur.shader" />
+     <None Include="Assets\Futile\Resources\Shaders\SolidColored.shader" />
+     <None Include="Assets\TOGame\Resources\Fonts\DiscoTiny.txt" />
+     <None Include="Assets\Futile\Resources\Shaders\Basic.shader" />
+     <None Include="Assets\Futile\Resources\Shaders\Solid.shader" />
+ <Reference Include="Assets\Futile\ThirdParty\GoKit">
+ <HintPath>Assets\Futile\ThirdParty\GoKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

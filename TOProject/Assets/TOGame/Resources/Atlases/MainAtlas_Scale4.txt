@@ -1,0 +1,107 @@
+{"frames": {
+
+"WhiteBox":
+{
+	"frame": {"x":1,"y":1,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+"BG/BigDirt":
+{
+	"frame": {"x":34,"y":1,"w":2560,"h":1440},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":2560,"h":1440},
+	"sourceSize": {"w":2560,"h":1440}
+},
+"Debug/Circle":
+{
+	"frame": {"x":2595,"y":1,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"Debug/Square":
+{
+	"frame": {"x":2724,"y":1,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"Debug/Triangle":
+{
+	"frame": {"x":2853,"y":1,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"Fonts/Cubano136_Scale4":
+{
+	"frame": {"x":2982,"y":1,"w":1018,"h":700},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":1018,"h":700},
+	"sourceSize": {"w":1024,"h":1024}
+},
+"Fonts/Cubano_InnerShadow_Scale4":
+{
+	"frame": {"x":2595,"y":702,"w":506,"h":363},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":506,"h":363},
+	"sourceSize": {"w":512,"h":512}
+},
+"Fonts/FranchiseFont_Scale4":
+{
+	"frame": {"x":3102,"y":702,"w":993,"h":662},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":8,"w":993,"h":662},
+	"sourceSize": {"w":1024,"h":1024}
+},
+"Game/PoliceCar_Body":
+{
+	"frame": {"x":4001,"y":1,"w":56,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":104},
+	"sourceSize": {"w":56,"h":104}
+},
+"UI/ControllerIcon":
+{
+	"frame": {"x":2595,"y":130,"w":314,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":314,"h":249},
+	"sourceSize": {"w":320,"h":256}
+},
+"UI/RoundedRect":
+{
+	"frame": {"x":4001,"y":106,"w":88,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":88},
+	"sourceSize": {"w":88,"h":88}
+},
+"UI/RoundedRect_Borderless":
+{
+	"frame": {"x":4001,"y":195,"w":88,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":88},
+	"sourceSize": {"w":88,"h":88}
+}},
+"meta":{
+	"app": "Packrat Atlas Generator github.com/MattRix/Packrat",
+	"version": "1.0",
+	"image": "Assets/TOGame/Resources/Atlases/MainAtlas_Scale4.png",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":4096},
+	"scale": "1"
+}
+}
